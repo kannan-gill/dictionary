@@ -4,7 +4,7 @@ const cors=require('cors');
 const Word=require('./models/index');
 
 
-mongoose.connect('mongodb+srv://kannan:mango@cluster0.yunra.mongodb.net/words?retryWrites=true&w=majority',{useNewUrlParser:true,useUnifiedTopology:true});
+mongoose.connect('your mongodb link',{useNewUrlParser:true,useUnifiedTopology:true});
 const port=process.env.PORT|80;
 
 const app=express();
